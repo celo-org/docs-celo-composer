@@ -6,8 +6,8 @@ const { docs, developers } = require("./sidebars");
 const DefaultLocale = "en";
 
 module.exports = {
-  title: "Staked Celo",
-  tagline: "Documentation for Staked Celo",
+  title: "Celo Composer",
+  tagline: "Documentation for Celo Composer",
   url: "https://docs.celo.org",
   baseUrl: "/",
   trailingSlash: false,
@@ -47,14 +47,14 @@ module.exports = {
       defaultMode: "dark",
     },
     navbar: {
-      title: "Staked Celo",
+      title: "Celo Composer",
       logo: {
         alt: "Celo Logo",
         src: "img/color-logo.png",
       },
       items: [
         {
-          href: "https://github.com/celo-org/staked-celo",
+          href: "https://github.com/celo-org/celo-composer",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
